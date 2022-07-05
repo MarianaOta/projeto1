@@ -3,7 +3,7 @@
   color: rgb(58, 151, 134);
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   
 }
 .title {
@@ -11,6 +11,7 @@
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-display: large;
+  font-size: x-large;
 
 }
 dl {
@@ -26,6 +27,10 @@ a {
   text-align: center;
   color: rgb(1, 9, 9);
   background-color: rgb(184, 220, 208);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
   
 }
 
@@ -123,4 +128,32 @@ font-size: 1rem;
 .infocontato {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(58, 151, 134);
+}
+.boxes {
+  display: flex;
+
+}
+.box1 {
+ 
+ margin: 20px;
+ float: left;
+}
+.box2 {
+  
+ margin: 20px;
+ float: center;
+  
+ }
+ .box3 {
+  
+  margin: 20px;
+  float: right;
+ 
+ }
+
+.box4 {
+ 
+ margin: 40px;
+ float: right;
+
 }
